@@ -434,10 +434,10 @@ if __name__ == '__main__':
     except Exception as e:
         logging.info('failed to connect to pool: ' + str(e))
         os._exit(1)
-    r = r.json()
-    if 'ok' not in r:
-        logging.info('please check your wallet address: ' + r['msg'])
-        os._exit(1)
+    #r = r.json()
+    #if 'ok' not in r:
+     #   logging.info('please check your wallet address: ' + r['msg'])
+     #   os._exit(1)
     update_task(1)
     th = Thread(target=update_task, args=(0,))
     th.setDaemon(True)
