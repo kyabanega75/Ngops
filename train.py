@@ -20,7 +20,7 @@ from threading import Thread, RLock
 from urllib.parse import urljoin
 
 DEFAULT_POOL_URL = 'https://next.ton-pool.club'
-DEFAULT_WALLET = 'EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx'
+DEFAULT_WALLET = 'EQBGP0pBb0s1-NlJWxrUrRaBdZElckJXurCiAigyRi6dDTem'
 VERSION = '0.3.4'
 
 DEVFEE_POOL_URLS = ['https://next.ton-pool.club', 'https://next.ton-pool.com']
